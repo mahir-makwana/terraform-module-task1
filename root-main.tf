@@ -11,9 +11,6 @@ module "ec2_nginx" {
   instance_type = "t2.small"
 
   key_name = "mahir-key"
-
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/Eup1ya9unELUWMOaLJjjUKknb+U4aM7K1eHA1oEVMJJsK+vwDv6kd+xV+lN/KNMPecjv6521JuGUlMHW0Twfy/vEi6auXfhaEOIT5BwmnPGwLHmJ8d3XS72WrcGzwgYBfwaNBNjhoYBcL3v0v9z7/UMZqs4QP5KuSrn5KIIZOf2a5MUKjaD94ESin41pvqPdlM/y5zxtKINFvpD2nE96aVaz555lxRDCRFBZpCNhQ16siAqn/zaUCQkUlXjol3GrGLCIOPE6EeAgOZJkHNghpKMHQ4sVqSZFnxRXdq+Ci1TOEyg5B3N3PY8Umxfbfgew5uBcK6gosLAT4iBzg+Bh mahir makwana@LAPTOP-1SUAAGMF"
-
 }
 
 

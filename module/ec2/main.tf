@@ -12,12 +12,14 @@ resource "aws_instance" "mahir_nginx" {
   tags = {
     Name = "mahir-nginx-server"
   }
+  depends_on = [aws_key_pair.key]
 }
 
 resource "aws_key_pair" "key" {
   key_name   = var.key_name
-  public_key = var.public_key
+  public_key = file("${path.module}/key.pub")
 }
+
 
 
 
