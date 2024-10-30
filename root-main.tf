@@ -8,7 +8,7 @@ module "ec2_nginx" {
 
   ami = "ami-08718895af4dfa033"
 
-  instance_type = "t2.small"
+  instance_type = "t2.micro"
 
   key_name = "mahir-key"
 }
